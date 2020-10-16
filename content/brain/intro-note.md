@@ -1,0 +1,7 @@
+---
+title: Intro Note
+date: "2015-05-01T22:12:03.284Z"
+description: "Intro Note"
+---
+
+Landing note for a [[digital garden]].

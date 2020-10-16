@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+
+.scrollText {
+  /* margin-top: 20vh; */
+  width: 80%;
+  margin: auto;
+  height: 20vh;
+  overflow: hidden;
+  position: relative;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; */
+  font-family: "Playfair Display", serif;
+}
+.scrollText h3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* line-height: 10px; */
+  text-align: center;
+  /* Starting position */
+  -moz-transform: translateY(-160%);
+  -webkit-transform: translateY(-160%);
+  transform: translateY(-160%);
+  /* Apply animation to this element */
+  -moz-animation: scrollText 15s linear infinite;
+  -webkit-animation: scrollText 15s linear infinite;
+  animation: scrollText 15s linear infinite;
+
+  font-weight: 600;
+  font-size: 8vw;
+}
+
+#comingSoon {
+  color: #d71111;
+  mix-blend-mode: multiply;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes scrollText {
+  0% {
+    -moz-transform: translateY(-160%);
+  }
+  100% {
+    -moz-transform: translateY(100%);
+  }
+}
+@-webkit-keyframes scrollText {
+  0% {
+    -webkit-transform: translateY(-160%);
+  }
+  100% {
+    -webkit-transform: translateY(100%);
+  }
+}
+@keyframes scrollText {
+  0% {
+    -moz-transform: translateY(-160%); /* Firefox bug fix */
+    -webkit-transform: translateY(-160%); /* Firefox bug fix */
+    transform: translateY(-160%);
+  }
+  100% {
+    -moz-transform: translateY(100%); /* Firefox bug fix */
+    -webkit-transform: translateY(100%); /* Firefox bug fix */
+    transform: translateY(100%);
+  }
+}

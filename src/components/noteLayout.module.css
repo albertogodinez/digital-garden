@@ -1,0 +1,42 @@
+.header {
+  color: #0c3442;
+}
+
+.note {
+  white-space: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 625px;
+  max-width: 625px;
+  padding: 20px 15px 20px 15px;
+  box-sizing: border-box;
+  background: #f3f5f8;
+  border-radius: 10px;
+  box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.07);
+}
+
+.noteFooter {
+  background-color: #adced7;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  margin: 0;
+}
+
+.refLink {
+  color: #45737c;
+  text-decoration: none;
+  line-height: 1.25;
+}
+
+.refLink:hover {
+  color: #0d3c4a;
+}
+
+.internalLink {
+  text-decoration: none;
+  color: #45737c;
+}
+
+.internalLink:hover {
+  text-decoration: underline;
+}
